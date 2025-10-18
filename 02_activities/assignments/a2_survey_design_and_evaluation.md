@@ -1,3 +1,4 @@
+
 # Assignment: Questionnaire Design and Sample Evaluation
 
 ## Requirements
@@ -40,30 +41,43 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of the svurvey is to determine the priorities of lawful Canadian voters in regards to government issues, social issues, economic issues, security issues, and global issues, with the goal of using that knowledge to maintain or extend the party's lead in the federal election. (Stating the purpose was actually a bit more challenging than I originally thought, because even though it should be in regards to national issues, a lot of voters mistake provincial and federal mandates. Even if a certain issue is not owned by the federal government, if it is percieved to be and will also have a large influence on voters, then the party will want to know about it so that it can position itself to be seen as contributing to a solution.)
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all lawful Canadian voters. The sampling frame is a list created by combining the most recent version of the National Register of Electors with the public phone directory (This sampling frame is not perfect as some electors may not have a phone, or the numbers listed may no longer be in use etc.). The sampling units are each phone number. The observational units are the contacted electors from whom data will be collected.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Are you a Canadian citizen who will be 18 years or older on election day?
+    a. YES b. NO
+2. Are you planning to vote in the Canadian federal election occurring on Tuesday, April 4th, 2035?
+    a. YES b. NO
+3. On a scale of one to five, with one being "unimportant" and five being "very important", how important are social issues in determining which party to vote for in this election?
+    unimportant (1) (2) (3) (4) (5) important
+4. What social issue do you personally feel is most relevant right now?
+    ....open-ended response
+5. On a scale of one to five, with one being "unimportant" and five being "very important", how important are economic issues in determining which party to vote for in this election?
+    unimportant (1) (2) (3) (4) (5) important
+6. What economic issue do you personally feel is most relevant right now?
+    ....open-ended response
+7. On a scale of one to five, with one being "unimportant" and five being "very important", how important are security issues in determining which party to vote for in this election?
+    unimportant (1) (2) (3) (4) (5) important
+8. What secuirty issue do you personally feel is most relevant right now?
+    ....open-ended response
+9. On a scale of one to five, with one being "unimportant" and five being "very important", how important are global issues in determining which party to vote for in this election?
+    unimportant (1) (2) (3) (4) (5) important
+10. What global issue do you personally feel is most relevant right now?
+    ....open-ended response
+11. What party are you currently planning on voting for in the federal election on occurring on Tuesday, April 4th, 2035?
+    a. Green Party b. Liberal c. Conservative d. New Democrats Party (NDP) e. Bloc Quebecois f. People's Party of Canada (PPC) g. undecided h. do not intend to vote
+12. Do you consider yourself open to changing your voting decision before election day?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +85,31 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - The sample design involved multi stage sampling using both probability and non-probability sampling methods. In the first phase each record (groupings of telephone numbers by address, or telephone numbers not linked to an address) in the sampling frame was assigned to a stratum within its province. A simple random sample without replacement of records was then selected in each stratum. A respondent from each household was then selected using the age-order method. Due to a low prevalance of volunteers in the population, 'rejective sampling' was also employed. In this instance a pre-set proportion of non-volunteer reponsdents had their interviews terminated after an initial set of questions. The proportion varied by province. This allowed for more time and resources to be spent locating the population of interest (volunteers).
+
+2. Sample size -  Sample size was was 16,149 (excluding rejected respondents determined to be not eligible).
+
+3. Target population - The target population for the 2018 General Social Survey is all non-institutionalized persons 15 years of age or older, living in the ten provinces of Canada.
+
+4. Sampling frame - The sampling frame was created using a combination of two components: lists of telephone numbers in use available to Statistics Canada from sources such as telephone comapnies, and the population Census, as well as the Address Register which lists all dwellings within the ten provinces. The adress register was used to group together telephone numbers by address. Records included groups of telehpne numbers linked to the Address Register as well as telephone numbers not linked to the Address Register.
+
+5. Survey mode(s) - Voluntary survey. Data is collected from participants using one of two available methods. The first method involves and electronic questionnaire (EQ). The second method involves computer assisted telephone interviewing (CATI). 
+
+6. Timeline - Data for 2018 GSS on GVP were collected from September 4th to December 28th, 2018. 
+
+7. Response rate - The overall response rate was 41.9%.
+
+8. Weights - Several weight adjustments were done depending on province, volunteer status, stratum, age, and sex. For example the person weight of a respondent was calculated by mulitpying the household weight by the number of eligible survey members in the household. These weights were further adjusted to match external reference totals for geographic stratum, age-sex groups by province, and income distribution.
+
+9. Data processing - Data processing was done to convert collected data into forms suitable for tabulation and analysis using various manual and automatic methods. Encryption was also compeleted prior to transmiting data output. Coding was used for open-ended written responses to group the responses into existing categories, or to create new categoires. Coding for other responses followed standard classification systems already in existence for the GSS and International Classification of Non-Profit Organizations.
+
+10. Cleaning, imputation, etc - Data was verified to indentify records that were duplicate, non-response or out-of scope. A small portion of records with missing or incorrect information were, in a small number of cases, were imputed from other information on the questionnaire. For item or partial non-response, donor imputation was done for certain variables to provide complete data or retain records despite missing a part of the required information. This was done using donor records which were selected using a scoring function where characteristics were compared certain characteristics.
+
+11. Sources of error - Certain households in the survey frame had a higher likelihood of being reached through more than one record due to errors related with the groupings of telephone numbers (ie. some telephone numbers that could not be linked to a grouping via address may still be associated with that address).
+
+12. Limitations, known biases, etc - The sampling frame excludes persons and households without telephone service. Due to the survey method used (phone and electronic) there is an inability to confirm the veracity of age and identity of respondents.
+
+13. Link to documentation and any additional sources used - Personal income data from the 2017 T1FF was used to complete income information. Lists of telephone number from telephone companies and the Census, along with the address Register were used to create the sampling frame.
 ```
 
 ## Rubric
